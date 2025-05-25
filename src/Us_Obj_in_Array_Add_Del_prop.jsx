@@ -20,7 +20,7 @@ const Us_Obj_in_Array_Add_Del_prop = () => {
   //   setusers(updatedUsers);
   // };
 
-  //this function one liner 
+  //this function one liner  
  const changeHandler = ()=>setusers(
   users.map((user,index) => index==1?({...user,age:33}):user)
  )
